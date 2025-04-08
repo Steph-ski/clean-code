@@ -5,13 +5,13 @@ function f1(targetDate, elementToUpdate) {
     countDownValue.innerText = dateDiffInDays;
   }
    
-var targetDate1 = new Date("2025-12-25");
-var elementToUpdate1 = "my-element";
+var christmas = new Date("2025-12-25");
+var christmasCountDownValue = "christmas-countdown-value";
 
-var targetDate2 = new Date("2026-01-01");
-var elementToUpdate2 = "my-element2"; 
+var newYear = new Date("2026-01-01");
+var newYearCountDownValue = "new-year-countdown-value"; 
   
-f1(targetDate1, elementToUpdate1);
-f1(targetDate2, elementToUpdate2);
+f1(christmas, christmasCountDownValue);
+f1(newYear, newYearCountDownValue);
 
   
