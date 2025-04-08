@@ -1,8 +1,8 @@
 function f1(targetDate, elementToUpdate) {
     var p = new Date();
-    var variable = Math.round((targetDate - p) / (1000 * 60 * 60 * 24));
-    var variable2 = document.getElementById(elementToUpdate);
-    variable2.innerText = variable;
+    var dateDiffInDays = Math.round((targetDate - p) / (1000 * 60 * 60 * 24));
+    var countDownValue = document.getElementById(elementToUpdate);
+    countDownValue.innerText = dateDiffInDays;
   }
    
 var targetDate1 = new Date("2025-12-25");
