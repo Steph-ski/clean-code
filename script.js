@@ -11,13 +11,10 @@ function calculateDateDiffInDays(targetDate) {
   }
    
 var christmas = new Date("2025-12-25");
-var christmasCountDownValue = "christmas-countdown-value";
-
 var newYear = new Date("2026-01-01");
-var newYearCountDownValue = "new-year-countdown-value"; 
   
-calculateAndSetCountDownValue(christmas, christmasCountDownValue);
-calculateAndSetCountDownValue(newYear, newYearCountDownValue);
+calculateAndSetCountDownValue(christmas, "christmas-countdown-value");
+calculateAndSetCountDownValue(newYear, "new-year-countdown-value");
 
 
 
